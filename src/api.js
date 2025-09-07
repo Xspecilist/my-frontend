@@ -1,5 +1,5 @@
 // src/api.js
-const API_BASE = "https://fastapi-backend-p5qb.onrender.com"; // your Render backend URL
+const API_BASE = "https://drag-gmt-affiliation-gr.trycloudflare.com"; // your Render backend URL
 
 export async function fetchResults(query) {
   const res = await fetch(`${API_BASE}/search?query=${query}&country=US&ui_lang=en`);
